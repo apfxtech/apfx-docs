@@ -7,17 +7,31 @@
 ![image](https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module/blob/FlipperZero-Module-v2/FlipperZeroModule/rep_images/Schematics_1.jpg?raw=true)
 
 Качаем Arduino IDE или Arduino IDEv2.
+
 Устанавливаем, открываем.
+
 Заходим File – Preferences – Additional Board Manager 
+
 Устанавливаем следующую ссылку:
+
 https://raw.githubusercontent.com/SpacehuhnTech/arduino/main/package_spacehuhn_index.json
+
 Ждум скачивания json пакета.
+
 Заходим Tools – Board – Board manager, ищем deauther и устанавливаем Deauther ESP8266 Boards
+
 Заходим Tools – Board – Deauther ESP8266 Boards – “ваша плата” в нашем случае NODEMCU
+
 Подключаем модуль
+
 Заходим Tools – выбираем номер нашего порта.
+
 Скачиваем [код](https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module) из GitHub repo
+
 Распаковываем. Заходим в папку esp8266_deauther
+
 Открываем файл esp8266_deauther.ino
+
 Нажимаем Upload сверху слева.
+
 Радуемся жизни!
