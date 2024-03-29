@@ -26,7 +26,7 @@ https://raw.githubusercontent.com/SpacehuhnTech/arduino/main/package_spacehuhn_i
 
 Заходим Tools – выбираем номер нашего порта.
 
-Скачиваем [код](https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module) из GitHub repo
+Скачиваем [код](https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module) из GitHub репозитория.
 
 Распаковываем. Заходим в папку esp8266_deauther
 
