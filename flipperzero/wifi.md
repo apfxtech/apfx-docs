@@ -37,4 +37,4 @@ https://raw.githubusercontent.com/SpacehuhnTech/arduino/main/package_spacehuhn_i
 # 2 ESP32
 
 > [!NOTE]
-> У esp32 больше функционала, чем у esp8266. Также приложение для esp32 доступно в официальном приложении.
+> У esp32 больше функционала, чем у esp8266б также приложение для esp32 доступно в официальном приложении.
