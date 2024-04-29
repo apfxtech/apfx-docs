@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ApertureFox - Chronos Zero</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Официальная документация по использованию Chronos Zero">
+    <meta name="author" content="apfx32">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://aperturefox.ru/public/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://aperturefox.ru/public/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://aperturefox.ru/public/icons/favicon-16x16.png">
+    <link rel="manifest" href="https://aperturefox.ru/public/icons/site.webmanifest">
+    <link rel="stylesheet" href="https://aperturefox.ru/public/CSS/color.css">
+    <link rel="stylesheet" href="https://aperturefox.ru/public/CSS/navbar.css">
+    <link
+        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+    <script defer src="https://aperturefox.ru/docs/assets/fontawesome/js/all.js"></script>
+    <link rel="stylesheet" href="https://aperturefox.ru/docs/assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://aperturefox.ru/docs/assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="https://aperturefox.ru/docs/assets/plugins/elegant_font/css/style.css">
+    <link rel="stylesheet" href="https://aperturefox.ru/docs/assets/plugins/simplelightbox/simple-lightbox.min.css">
+    <link id="theme-style" rel="stylesheet" href="https://aperturefox.ru/docs/assets/css/styles.css">
+    <style>
+        :root {
+            --main-color: var(--color_neutral_orange);
+            --text-color: var(--color_light0_soft)
+        }
+
+        .wrapper .logo-navbar-main {
+            color: var(--color_neutral_orange);
+        }
+
+        .wrapper .logo-navbar-img {
+            display: none;
+        }
+
+        #doc-header img {
+            max-height: 75px;
+            max-width: 75px;
+        }
+
+        .pdf {
+            width: 100%;
+            aspect-ratio: 4 / 3;
+            border: 1px solid var(--color_dark3);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body class="body-orange">
+    <header id="nav-hendler"></header>
+    <br><br>
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo">
+                        <a href="index.html">
+                            <span aria-hidden="true" class="icon_documents_alt icon"></span>
+                            <span class="text-highlight">APFX</span><span class="text-bold">Docs</span>
+                        </a>
+                    </h1>
+                </div><!--//branding-->
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">docs</a></li>
+                    <li class="breadcrumb-item active">Chronos</li>
+                    <li class="breadcrumb-item active">Zero</li>
+                    <li class="breadcrumb-item active">hardware</li>
+                </ol>
+                <div class="top-search-box">
+                    <form class="form-inline search-form justify-content-center" action="/search" method="get">
+                        <input type="text" placeholder="Введите запрос..." name="search"
+                            class="form-control search-input">
+                        <button type="submit" class="btn search-btn" value="Search"><i
+                                class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </div><!--//container-->
+        </header><!--//header-->
+        <div class="doc-wrapper">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-center">
+                    <img src="https://aperturefox.ru/public/flipper-icons/settings.svg" alt="Icon">
+                    <h1 class="doc-title">
+                        <Labs />
+                    </h1>
+                    <div class="meta"><i class="far fa-clock"></i>Последние обновление: 29-Апрель-2024</div>
+                </div><!--//doc-header-->
+                <div class="doc-body row">
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+                            <section id="hardware" class="doc-section">
+                                <h2 class="section-title" id="about">О проекте:</h2>
+                                <div class="section-block">
+                                    <p>
+
+                                    </p>
+                                </div><!--//section-block-->
+                            </section><!--//doc-section-->
+                            <section id="hardware" class="doc-section">
+                                <h2 class="section-title" id="power">Схема питания:</h2>
+                                <div class="section-block">
+                                    <object class="pdf" data="https://aperturefox.ru/public/PDF/chronoszero/POWER.pdf">
+                                    </object>
+                                    <p>
+
+                                    </p>
+                                </div><!--//section-block-->
+                            </section><!--//doc-section-->
+                            <section id="hardware" class="doc-section">
+                                <h2 class="section-title" id="pher">Схема встроенной переферии:</h2>
+                                <div class="section-block">
+                                    <object class="pdf" data="https://aperturefox.ru/public/PDF/chronoszero/PHER.pdf">
+                                    </object>
+                                    <p>
+
+                                    </p>
+                                </div><!--//section-block-->
+                            </section><!--//doc-section-->
+                            <section id="hardware" class="doc-section">
+                                <h2 class="section-title" id="cpu">Схема центального процессора:</h2>
+                                <div class="section-block">
+                                    <object class="pdf" data="https://aperturefox.ru/public/PDF/chronoszero/CPU.pdf">
+                                    </object>
+                                    <p>
+
+                                    </p>
+                                </div><!--//section-block-->
+                            </section><!--//doc-section-->
+                            <section id="hardware" class="doc-section">
+                                <h2 class="section-title" id="memory">Схема системы памяти:</h2>
+                                <div class="section-block">
+                                    <object class="pdf" data="https://aperturefox.ru/public/PDF/chronoszero/MEMORY.pdf">
+                                    </object>
+                                    <p>
+
+                                    </p>
+                                </div><!--//section-block-->
+                            </section><!--//doc-section-->
+                            <section id="hardware" class="doc-section">
+                                <h2 class="section-title" id="nfc">Схема встроенного NFC:</h2>
+                                <div class="section-block">
+                                    <object class="pdf" data="https://aperturefox.ru/public/PDF/chronoszero/NFC.pdf">
+                                    </object>
+                                    <p>
+
+                                    </p>
+                                </div><!--//section-block-->
+                            </section><!--//doc-section-->
+                            <section id="hardware" class="doc-section">
+                                <h2 class="section-title" id="control">Схема управления:</h2>
+                                <div class="section-block">
+                                    <object class="pdf"
+                                        data="https://aperturefox.ru/public/PDF/chronoszero/CONTROL.pdf">
+                                    </object>
+                                    <p>
+
+                                    </p>
+                                </div><!--//section-block-->
+                            </section><!--//doc-section-->
+                            <section id="install" class="doc-section">
+                                <h2 class="section-title" id="author">Авторы статьи:</h2>
+                                <div id="projects" class="section-block">
+                                    <p>
+                                        APFX32, ...
+                                    </p>
+                                    <ul class="list list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="/download" class="btn btn-green" target="_blank"><i
+                                                    class="fas fa-download"></i>
+                                                Скачать файлы</a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="https://t.me/communitydocs" class="btn btn-orange btn-cta"><i
+                                                    class="fas fa-bug"></i>
+                                                Сообщить о ошибке</a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" class="btn btn-red btn-cta"><i class="fas fa-code-branch"></i>
+                                                Следуящая статья</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </div><!--//content-inner-->
+                    </div><!--//doc-content-->
+                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                        <div id="doc-nav" class="doc-nav">
+                            <ul id="doc-menu" class="nav doc-menu flex-column sticky">
+                                <li class="nav-item">
+                                    <a class="nav-link scrollto" href="#about">О проекте</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link scrollto" href="#power">Питание</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link scrollto" href="#pher">Переферия</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link scrollto" href="#cpu">Процессор</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link scrollto" href="#memory">Память</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link scrollto" href="#nfc">NFC</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link scrollto" href="#control">Управление</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link scrollto" href="#author">Авторы статьи</a>
+                                </li>
+                            </ul><!--//doc-menu-->
+                        </div><!--//doc-nav-->
+                    </div>
+                </div><!--//doc-body-->
+            </div><!--//container-->
+        </div><!--//doc-wrapper-->
+    </div><!--//page-wrapper-->
+
+    <footer id="nav-footer" class="site-footer text-center"></footer>
+
+    <!-- Main Javascript -->
+    <script src="https://aperturefox.ru/docs/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://aperturefox.ru/docs/assets/plugins/prism/prism.js"></script>
+    <script src="https://aperturefox.ru/docs/assets/plugins/stickyfill/dist/stickyfill.min.js"></script>
+    <script src="https://aperturefox.ru/docs/assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
+    <script src="https://aperturefox.ru/docs/assets/plugins/simplelightbox/simple-lightbox.min.js"></script>
+    <script type="text/javascript">
+        function loadHTML(url, element) {
+            fetch(url)
+                .then(response => response.text())
+                .then(html => {
+                    document.querySelector(element).innerHTML = html;
+                })
+                .catch(error => {
+                    console.error('Ошибка при загрузке HTML:', error);
+                });
+        }
+
+        // Вызов функции с URL и селектором элемента, куда будет добавлен контент
+        loadHTML('https://aperturefox.ru/public/modules/navbar.html', '#nav-hendler');
+        loadHTML('https://aperturefox.ru/public/modules/footer.html', '#nav-footer');
+    </script>
+
+</body>
+<script src="https://aperturefox.ru/public/modules/navbar.js"></script>
+
+</html>
